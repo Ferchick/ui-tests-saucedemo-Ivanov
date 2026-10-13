@@ -1,0 +1,10 @@
+com\example\saucedemo\tests\CartTests.class
+com\example\saucedemo\pages\CheckoutPage.class
+com\example\saucedemo\tests\BaseTest.class
+com\example\saucedemo\tests\SortingTests.class
+com\example\saucedemo\tests\LoginTests.class
+com\example\saucedemo\pages\InventoryPage.class
+com\example\saucedemo\pages\CartPage.class
+com\example\saucedemo\pages\LoginPage.class
+com\example\saucedemo\tests\CheckoutTests.class
+com\example\saucedemo\pages\BasePage.class

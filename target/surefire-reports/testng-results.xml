@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-13T22:46:38 MSK" name="Surefire suite" finished-at="2026-10-13T22:47:26 MSK" duration-ms="48004">
+    <groups>
+    </groups>
+    <test started-at="2026-10-13T22:46:38 MSK" name="Surefire test" finished-at="2026-10-13T22:47:26 MSK" duration-ms="48004">
+      <class name="com.example.saucedemo.tests.SortingTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.saucedemo.tests.SortingTests@57d5872c]" started-at="2026-10-13T22:46:50 MSK" name="setUp" finished-at="2026-10-13T22:46:52 MSK" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortByNameDescending()[pri:0, instance:com.example.saucedemo.tests.SortingTests@57d5872c]" started-at="2026-10-13T22:46:52 MSK" name="sortByNameDescending" description="Сортировка товаров по имени Z-A" finished-at="2026-10-13T22:47:08 MSK" duration-ms="16164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByNameDescending -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.saucedemo.tests.SortingTests@57d5872c]" started-at="2026-10-13T22:47:08 MSK" name="tearDown" finished-at="2026-10-13T22:47:08 MSK" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortByNameDescending status=SUCCESS method=SortingTests.sortByNameDescending()[pri:0, instance:com.example.saucedemo.tests.SortingTests@57d5872c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.saucedemo.tests.SortingTests@57d5872c]" started-at="2026-10-13T22:47:08 MSK" name="setUp" finished-at="2026-10-13T22:47:09 MSK" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortByPriceAscending()[pri:0, instance:com.example.saucedemo.tests.SortingTests@57d5872c]" started-at="2026-10-13T22:47:09 MSK" name="sortByPriceAscending" description="Сортировка товаров по цене Low-High" finished-at="2026-10-13T22:47:25 MSK" duration-ms="16204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceAscending -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.saucedemo.tests.SortingTests@57d5872c]" started-at="2026-10-13T22:47:25 MSK" name="tearDown" finished-at="2026-10-13T22:47:26 MSK" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortByPriceAscending status=SUCCESS method=SortingTests.sortByPriceAscending()[pri:0, instance:com.example.saucedemo.tests.SortingTests@57d5872c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.saucedemo.tests.SortingTests -->
+      <class name="com.example.saucedemo.tests.CheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.saucedemo.tests.CheckoutTests@41ee392b]" started-at="2026-10-13T22:46:42 MSK" name="setUp" finished-at="2026-10-13T22:46:44 MSK" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutValidationEmptyFirstName()[pri:0, instance:com.example.saucedemo.tests.CheckoutTests@41ee392b]" started-at="2026-10-13T22:46:44 MSK" name="checkoutValidationEmptyFirstName" description="Валидация обязательного поля First Name" finished-at="2026-10-13T22:46:44 MSK" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutValidationEmptyFirstName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.saucedemo.tests.CheckoutTests@41ee392b]" started-at="2026-10-13T22:46:44 MSK" name="tearDown" finished-at="2026-10-13T22:46:45 MSK" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutValidationEmptyFirstName status=SUCCESS method=CheckoutTests.checkoutValidationEmptyFirstName()[pri:0, instance:com.example.saucedemo.tests.CheckoutTests@41ee392b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.saucedemo.tests.CheckoutTests@41ee392b]" started-at="2026-10-13T22:46:45 MSK" name="setUp" finished-at="2026-10-13T22:46:46 MSK" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="successfulCheckout()[pri:0, instance:com.example.saucedemo.tests.CheckoutTests@41ee392b]" started-at="2026-10-13T22:46:46 MSK" name="successfulCheckout" description="Успешное оформление заказа" finished-at="2026-10-13T22:46:47 MSK" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.saucedemo.tests.CheckoutTests@41ee392b]" started-at="2026-10-13T22:46:47 MSK" name="tearDown" finished-at="2026-10-13T22:46:47 MSK" duration-ms="97" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulCheckout status=SUCCESS method=CheckoutTests.successfulCheckout()[pri:0, instance:com.example.saucedemo.tests.CheckoutTests@41ee392b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.saucedemo.tests.CheckoutTests -->
+      <class name="com.example.saucedemo.tests.CartTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.saucedemo.tests.CartTests@2ea6137]" started-at="2026-10-13T22:46:38 MSK" name="setUp" finished-at="2026-10-13T22:46:39 MSK" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addBackpackToCart()[pri:0, instance:com.example.saucedemo.tests.CartTests@2ea6137]" started-at="2026-10-13T22:46:39 MSK" name="addBackpackToCart" description="Добавление товара в корзину и проверка состава" finished-at="2026-10-13T22:46:40 MSK" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBackpackToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.saucedemo.tests.CartTests@2ea6137]" started-at="2026-10-13T22:46:40 MSK" name="tearDown" finished-at="2026-10-13T22:46:40 MSK" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addBackpackToCart status=SUCCESS method=CartTests.addBackpackToCart()[pri:0, instance:com.example.saucedemo.tests.CartTests@2ea6137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.saucedemo.tests.CartTests@2ea6137]" started-at="2026-10-13T22:46:40 MSK" name="setUp" finished-at="2026-10-13T22:46:42 MSK" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeBackpackFromCart()[pri:0, instance:com.example.saucedemo.tests.CartTests@2ea6137]" started-at="2026-10-13T22:46:42 MSK" name="removeBackpackFromCart" description="Удаление товара из корзины" finished-at="2026-10-13T22:46:42 MSK" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeBackpackFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.saucedemo.tests.CartTests@2ea6137]" started-at="2026-10-13T22:46:42 MSK" name="tearDown" finished-at="2026-10-13T22:46:42 MSK" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeBackpackFromCart status=SUCCESS method=CartTests.removeBackpackFromCart()[pri:0, instance:com.example.saucedemo.tests.CartTests@2ea6137] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.saucedemo.tests.CartTests -->
+      <class name="com.example.saucedemo.tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.saucedemo.tests.LoginTests@1e67a849]" started-at="2026-10-13T22:46:47 MSK" name="setUp" finished-at="2026-10-13T22:46:48 MSK" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedOutUserLogin()[pri:0, instance:com.example.saucedemo.tests.LoginTests@1e67a849]" started-at="2026-10-13T22:46:48 MSK" name="lockedOutUserLogin" description="Негативная авторизация locked_out_user" finished-at="2026-10-13T22:46:49 MSK" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUserLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.saucedemo.tests.LoginTests@1e67a849]" started-at="2026-10-13T22:46:49 MSK" name="tearDown" finished-at="2026-10-13T22:46:49 MSK" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lockedOutUserLogin status=SUCCESS method=LoginTests.lockedOutUserLogin()[pri:0, instance:com.example.saucedemo.tests.LoginTests@1e67a849] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.saucedemo.tests.LoginTests@1e67a849]" started-at="2026-10-13T22:46:49 MSK" name="setUp" finished-at="2026-10-13T22:46:50 MSK" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="positiveLogin()[pri:0, instance:com.example.saucedemo.tests.LoginTests@1e67a849]" started-at="2026-10-13T22:46:50 MSK" name="positiveLogin" description="Позитивная авторизация standard_user" finished-at="2026-10-13T22:46:50 MSK" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.saucedemo.tests.LoginTests@1e67a849]" started-at="2026-10-13T22:46:50 MSK" name="tearDown" finished-at="2026-10-13T22:46:50 MSK" duration-ms="95" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=positiveLogin status=SUCCESS method=LoginTests.positiveLogin()[pri:0, instance:com.example.saucedemo.tests.LoginTests@1e67a849] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.saucedemo.tests.LoginTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
